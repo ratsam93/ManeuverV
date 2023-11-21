@@ -111,8 +111,17 @@ section{
 .header .icons div:hover{
     color: var(--main-color);
 }
+.header .icons div{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.3rem;
+    margin-left: 1.5rem;
+}
+.header .icons div:hover{
+    color: var(--main-color);
+}
 
-#vision-btn{
+#menu-btn{
     display: none;
 }
 
@@ -228,7 +237,7 @@ section{
 }
 
 .goal .row .image{
-    flex: 1 1 50rem;
+    flex: 1 1 40rem;
 }
 .goal .row .image img{
     width: 100%;
@@ -434,19 +443,19 @@ section{
 }
 .members .row .content{
     flex: 1 1 45rem;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .members .row .content h3{
-    font-size: 6rem;
+    font-size: 5rem;
     color: #fff;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     text-align: center;
 }
 .members .row .content p{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #ccc;
-    padding: 2rem 0;
-    line-height: 1.8;
+    padding: 1.3rem 0;
+    line-height: 1.2;
 }
 .roadmap{
     min-height: 100vh;
@@ -568,9 +577,9 @@ section{
         padding: 2rem;
     }
 }
-@media (max-width:768px){
+@media screen and (max-width:768px){
     
-    #vision-btn{
+    #menu-btn{
         display: inline-block;
     }
 
@@ -591,13 +600,9 @@ section{
         padding: 0.5rem;
         font-size: 2rem;
     }
-    .header .search-form{
-        width: 90%;
-        right: 2rem;
-    }
 }
 @media (max-width:450px){
     html{
-        font-size: 50%;   
+        font-size: 50%;
     }
 }
