@@ -127,6 +127,7 @@ section{
 
 .home{
     min-height: 100vh;
+    min-width: 90vh;
     display: flex;
     align-items: center;
     background: url(../images/modern-office-building-features-luxury-skyline-view-generated-by-ai.jpg) no-repeat;
